@@ -31,9 +31,7 @@ module.exports = {
 
       },
       backgroundImage : {
-        'jpl_Logo': "url('/img/jpl_logo-removebg-preview.png')",
-
-  
+        'jpl-Logo': "url('/img/jpl_logo-removebg-preview.png')"
       },
     },
   },

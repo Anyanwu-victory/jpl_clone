@@ -31,18 +31,60 @@
     </div>
    </div>
   </nav>
-  <!-- JUMBOTRON WITH FEATURED VIDEO -->
-  
-<section class="bg-center bg-no-repeat  bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
-  <div class="px-4 mx-auto max-w-screen-xl  py-24  relative">
-    <nav class="mt-4 flex ml-3 absolute">
-      
-      <div class="bg-[url('/img/jpl_logo-removebg-preview.png')]"  >
-        
 
+<!-- JUMBOTRON WITH FEATURED VIDEO -->
+<section class="relative h-[30rem] bg-cover bg-no-repeat bg-gray-700 bg-blend-multiply">
+  <video autoplay loop muted class="absolute inset-0 w-full h-full object-cover">
+    <source src="/video/Rocket-Launch.mp4" type="video/mp4">
+    <!-- Add additional source tags for different video formats if needed -->
+  </video>
+
+  <div class="px-4 mx-auto h-[30rem]  py-24  relative">
+    <!-- This is the inner nav bar that contains the Logo and the other CTA Buttons -->
+    <nav class=" flex flex-row space-x-5 ">
+      <div class="flex  mt-[-5rem] space-x-[40px]">
+        <!-- This is the image div that contains the Logo -->
+        <div class="mr-[15rem]">
+          <img src="./img/jpl_logo-removebg-preview.png" alt="" class=" ml-[-1rem] w-[25rem]">
+        </div>
+         <!-- This is the Div that contains the CTA buttons  -->
+        <div class=" flex pt-9 text-white ">
+          <ul class="flex space-x-8 text-[15px] font-bold">
+            <li class="">
+               <a href="#" class="text-gray-900 dark:text-white py-2 hover:border-b-[3px]  border-spacing-y-[9px] border-white-600 ">About JPL</a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-900 dark:text-white py-2 hover:border-b-[3px] border-spacing-y-[9px] border-white-600">Missions</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 dark:text-white py-2 hover:border-b-[3px] border-spacing-y-[9px] border-white-600"> News</a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-900 dark:text-white py-2 hover:border-b-[3px] border-spacing-y-[9px] border-white-600"> Galleries</a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-900 dark:text-white py-2 hover:border-b-[3px] border-spacing-y-[9px] border-white-600">Events</a>
+            </li>
+
+            <li>
+             <a href="#" class="text-gray-900 dark:text-white py-2 hover:border-b-[3px] border-spacing-y-[9px] border-white-600">Visit</a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-900 dark:text-white py-2 hover:border-b-[3px] border-spacing-y-[9px] border-white-600">Topics</a>
+            </li>
+
+            <li>
+
+            </li>
+          </ul>
+        
+        </div>
       </div>
-    </nav>
-     
+    </nav> 
   </div>
 </section>
 
