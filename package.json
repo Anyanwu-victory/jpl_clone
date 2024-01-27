@@ -1,0 +1,16 @@
+{
+  "name": "jpl_clone",
+  "version": "1.0.0",
+  "description": "practising my tailwind skills and reactJS skills with jpl NASA Clone",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./dist/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./dist/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
