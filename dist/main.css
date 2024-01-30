@@ -558,6 +558,66 @@ video {
   left: -23rem;
 }
 
+.top-\[9rem\] {
+  top: 9rem;
+}
+
+.top-\[5rem\] {
+  top: 5rem;
+}
+
+.top-\[7rem\] {
+  top: 7rem;
+}
+
+.top-\[-7rem\] {
+  top: -7rem;
+}
+
+.top-\[4rem\] {
+  top: 4rem;
+}
+
+.top-\[2rem\] {
+  top: 2rem;
+}
+
+.top-12 {
+  top: 3rem;
+}
+
+.top-\[1rem\] {
+  top: 1rem;
+}
+
+.top-\[-1rem\] {
+  top: -1rem;
+}
+
+.bottom-\[20px\] {
+  bottom: 20px;
+}
+
+.bottom-\[40px\] {
+  bottom: 40px;
+}
+
+.bottom-\[80px\] {
+  bottom: 80px;
+}
+
+.bottom-\[90px\] {
+  bottom: 90px;
+}
+
+.bottom-\[100px\] {
+  bottom: 100px;
+}
+
+.bottom-\[120px\] {
+  bottom: 120px;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -719,6 +779,62 @@ video {
   margin-left: 1rem;
 }
 
+.ml-\[2\.5rem\] {
+  margin-left: 2.5rem;
+}
+
+.ml-\[1\.5rem\] {
+  margin-left: 1.5rem;
+}
+
+.mt-\[30rem\] {
+  margin-top: 30rem;
+}
+
+.mt-\[-40rem\] {
+  margin-top: -40rem;
+}
+
+.mt-\[20rem\] {
+  margin-top: 20rem;
+}
+
+.mt-\[6rem\] {
+  margin-top: 6rem;
+}
+
+.mt-\[4rem\] {
+  margin-top: 4rem;
+}
+
+.mt-\[3rem\] {
+  margin-top: 3rem;
+}
+
+.mt-\[2rem\] {
+  margin-top: 2rem;
+}
+
+.mt-\[1rem\] {
+  margin-top: 1rem;
+}
+
+.mt-\[0\.3rem\] {
+  margin-top: 0.3rem;
+}
+
+.mt-\[2px\] {
+  margin-top: 2px;
+}
+
+.mt-\[1px\] {
+  margin-top: 1px;
+}
+
+.mt-\[0\.2px\] {
+  margin-top: 0.2px;
+}
+
 .flex {
   display: flex;
 }
@@ -737,6 +853,10 @@ video {
 
 .h-\[60rem\] {
   height: 60rem;
+}
+
+.h-\[20rem\] {
+  height: 20rem;
 }
 
 .w-\[\] {
@@ -775,6 +895,14 @@ video {
   width: 30rem;
 }
 
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[35rem\] {
+  width: 35rem;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -790,6 +918,10 @@ video {
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -928,6 +1060,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/img\/jpl_logo-removebg-preview\.png\'\)\] {
   background-image: url('/img/jpl_logo-removebg-preview.png');
 }
@@ -958,6 +1095,26 @@ video {
 
 .fill-white {
   fill: #fff;
+}
+
+.fill-red-600 {
+  fill: #dc2626;
+}
+
+.fill-red-700 {
+  fill: #b91c1c;
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+.fill-red-500 {
+  fill: #ef4444;
+}
+
+.stroke-red-700 {
+  stroke: #b91c1c;
 }
 
 .object-cover {
@@ -1037,8 +1194,16 @@ video {
   padding-left: -20rem;
 }
 
+.pl-\[3rem\] {
+  padding-left: 3rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-sm {
@@ -1106,6 +1271,18 @@ video {
   font-size: 60px;
 }
 
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.text-\[45px\] {
+  font-size: 45px;
+}
+
+.text-\[23px\] {
+  font-size: 23px;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -1124,6 +1301,34 @@ video {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
+.leading-\[90px\] {
+  line-height: 90px;
+}
+
+.leading-\[70px\] {
+  line-height: 70px;
+}
+
+.leading-\[60px\] {
+  line-height: 60px;
 }
 
 .text-gray-900 {
